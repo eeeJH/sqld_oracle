@@ -31,11 +31,11 @@ Database opened.
 - 오라클 SYSDBA 접속 후, 아래의 쿼리를 입력하였으나 오류발생
 
 ```
-select * from daul;
+select * from dual;
 ```
 ```
-SQL> select * from daul;
-select * from daul
+SQL> select * from dual;
+select * from dual
 *
 ERROR at line 1:
 ORA-01034: ORACLE not available
@@ -66,7 +66,7 @@ Session ID: 167 Serial number: 3
 
 
 SQL>
-SQL> select * from daul;
+SQL> select * from dual;
 ERROR:
 ORA-03114: not connected to ORACLE
 ```
